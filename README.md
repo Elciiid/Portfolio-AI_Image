@@ -2,7 +2,7 @@
 
 Portfolio for AI fashion and jewelry imagery made with Stable Diffusion: a hero, a practice collection, a short "How I work", and contact details.
 
-All images are AI-generated practice work, not client work. They were made with epiCRealism XL (by epinikion), upscaled 2x and given one light warm grade.
+All images are AI-generated. They were made with epiCRealism XL (by epinikion), upscaled 2x and given one light warm grade.
 
 ## Adding images
 
@@ -10,7 +10,7 @@ Drop finished images into `public/ai-imagery/` (jpg, png or webp). They are list
 
 ## Contact details
 
-`lib/site.ts` holds the email, LinkedIn, rate, availability and payment method shown in the Contact section. Leave a value empty to hide its row.
+`lib/site.ts` holds the email, LinkedIn, WhatsApp, location and timezone shown in the Contact section. Leave a value empty to hide its row.
 
 ## Tech Stack
 

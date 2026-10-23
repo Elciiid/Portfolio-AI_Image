@@ -14,7 +14,7 @@ export default function Collection() {
             Practice collection
           </h2>
           <p className="max-w-lg text-[15px] leading-[1.7] text-muted-foreground md:col-span-7">
-            Practice frames made to a black-and-gold brief, not client work. Generated with Stable
+            Made to a black-and-gold brief. Generated with Stable
             Diffusion (epiCRealism XL by epinikion).
           </p>
         </Reveal>

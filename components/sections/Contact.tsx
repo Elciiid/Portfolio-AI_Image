@@ -53,7 +53,20 @@ export default function Contact() {
                 className="flex items-baseline justify-between gap-6 border-b border-border py-3.5"
               >
                 <dt className="label">{d.label}</dt>
-                <dd className="max-w-[26rem] text-right text-[14px]">{d.value}</dd>
+                <dd className="max-w-[26rem] text-right text-[14px]">
+                  {d.href ? (
+                    <a
+                      href={d.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="resend-link underline underline-offset-4"
+                    >
+                      {d.value}
+                    </a>
+                  ) : (
+                    d.value
+                  )}
+                </dd>
               </div>
             ))}
           </dl>

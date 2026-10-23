@@ -61,7 +61,6 @@ export default function Hero() {
             style={delay(240)}
           >
             AI fashion and jewelry imagery made with Stable Diffusion, to a written visual system.
-            Practice frames, not client work.
           </p>
         </div>
 

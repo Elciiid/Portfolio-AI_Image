@@ -48,7 +48,7 @@ export default function Footer() {
         </div>
 
         <p className="pt-6 text-[12px] text-muted-foreground">
-          &copy; {copyrightYear} {site.name}. All images are AI-generated practice work.
+          &copy; {copyrightYear} {site.name}. All images are AI-generated.
         </p>
       </div>
     </footer>
